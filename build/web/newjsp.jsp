@@ -14,7 +14,10 @@
     <body>
         <h1>Hello World!</h1>
         <jsp:useBean id="student1" class="MVC.Student"></jsp:useBean>
-            <jsp:setProperty name="student1" property="name" value="John"/>
+        
+        <%--jsp:useBean id="student1" type="MVC.Student" scope="request"/></jsp:useBean>
+            --%>
+        <jsp:setProperty name="student1" property="name" value="John"/>
             <jsp:getProperty name="student1" property="name" />
                         
             <jsp:setProperty name="student1" property="age" value="24"/>
