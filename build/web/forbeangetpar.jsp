@@ -17,15 +17,15 @@
 
 <%-- getName expects a String --%>
 
-<%
+<%--
 String name="";
 
   name = request.getParameter("name");
 
-%>
+--%>
 
-<%--<jsp:setProperty name="student2" property="name" value="<%= request.getParameter("names") %>" />--%>
-<jsp:setProperty name="student2" property="name" value="<%= name %>" />
+<jsp:setProperty name="student2" property="name" value="<%= request.getParameter("names") %>" />
+<%--<jsp:setProperty name="student2" property="name" value="<%= name %>" />--%>
                  
 <%
 int id=0;
@@ -37,7 +37,12 @@ catch(NumberFormatException nfe) {}
 %>
 
 <%-- getId expects an int --%>
+<%
+String name="";
 
+  name = request.getParameter("name");
+
+%>
 <jsp:setProperty name="student2" property="id" value="<%= id %>" />
 
 <jsp:getProperty name="student2" property="name" /><br>
