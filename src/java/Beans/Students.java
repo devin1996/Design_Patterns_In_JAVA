@@ -11,6 +11,11 @@ public class Students implements Serializable{
     public Students(){
     }
     
+    public Students(String name, int id){
+        this.id=id;
+        this.name=name;
+    }
+    
     public void setId(int id){
             this.id=id;
     }

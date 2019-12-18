@@ -8,6 +8,14 @@
         <servlet-name>RrgisterServlet</servlet-name>
         <servlet-class>Servlets.RrgisterServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RequestScope</servlet-name>
+        <servlet-class>Servlets.RequestScope</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionScope</servlet-name>
+        <servlet-class>Servlets.SessionScope</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>RrgisterServlet</servlet-name>
         <url-pattern>/RrgisterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RequestScope</servlet-name>
+        <url-pattern>/RequestScope</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionScope</servlet-name>
+        <url-pattern>/SessionScope</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

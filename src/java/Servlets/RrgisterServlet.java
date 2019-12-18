@@ -6,7 +6,7 @@
 
 package Servlets;
 
-import MVC.NameBean;
+import Beans.NameBean;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;

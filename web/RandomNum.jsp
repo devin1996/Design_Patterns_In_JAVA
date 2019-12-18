@@ -13,11 +13,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <jsp:useBean id="randomNum" type="MVC.NumberBean" scope="request"/>
+        <jsp:useBean id="randomNum" type="Beans.NumberBean" scope="request"/>
         <%--if class it will create an object if type it will not create an object only use the 
         creaetd object from the servlet--%>
         <h2>Random Number
             <jsp:getProperty name="randomNum" property="number"/>
-            </h2
+        </h2>
     </body>
 </html>

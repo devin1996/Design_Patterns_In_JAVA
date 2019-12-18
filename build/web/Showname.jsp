@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-          <jsp:useBean id="nameBean" type="MVC.NameBean" scope="session"/>
+          <jsp:useBean id="nameBean" type="Beans.NameBean" scope="session"/>
         <%----%>
         <h2>Show name
            First Name : <jsp:getProperty name="nameBean" property="firstName"/>

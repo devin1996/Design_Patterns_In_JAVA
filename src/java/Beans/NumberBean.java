@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package MVC;
+package Beans;
 
 import java.io.Serializable;
 

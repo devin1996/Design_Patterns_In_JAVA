@@ -2,7 +2,7 @@
 
 package Servlets;
 
-import MVC.NumberBean;
+import Beans.NumberBean;
 import com.sun.corba.se.spi.protocol.RequestDispatcherDefault;
 import java.io.IOException;
 import java.io.PrintWriter;
